@@ -1,0 +1,14 @@
+const loginclose = document.querySelector(".notificate");
+
+// // process close
+
+// //////////////////////////////////////////////////////////////////////////////////////////
+
+loginclose.addEventListener("click", function (event) {
+  sidebar.classList.remove("open");
+});
+
+loginclose.addEventListener("click", function (event) {
+  navsidebar.classList.remove("open");
+});
+// //////////////////////////////////////////////////////////////////////////////////////////
